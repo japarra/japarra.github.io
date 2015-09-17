@@ -1,43 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400|Source+Sans+Pro:300);
+
 html {
     height: 100%;
 }
 
 body {
     height: 100%;
-    color: #444;
-    font-size: 18px;
+    background-color: #aa3939;
     line-height: 1.45;
     display: flex;
 }
-
-h1 {
-    font-size: 2.827em;
-    margin: auto;
-}
-
-
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
+.container {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
 
+#my-name {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2.5em;
+    font-weight: 300;
+    margin: 0 0 1rem;
+}
 
-
-
-
-
-
-
-
-
-
-
+#my-title {
+    font-family: 'Source Sans Pro', sans-serif;;
+    font-size: 1.25em;
+    font-weight: 300;
+    margin: 0;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
 
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+
+@media only screen and (min-width: 540px) {
+    #my-name {
+        font-size: 3.75em;
+    }
+    
+    #my-title {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #my-name {
+        font-size: 5em;
+    }
+    
+    #my-title {
+        /*font-size: 1.5em;*/
+    }
+}
+
+@media only screen and (min-width: 1060px) {
+    #my-name {
+        font-size: 6.25em;
+        margin-bottom: 0;
+    }
+    
+    #my-title {
+        font-size: 1.75em;
+    }
+}
 
 @media only screen and (min-width: 35em) {
 
