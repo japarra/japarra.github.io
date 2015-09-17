@@ -21,4 +21,8 @@
     }
 }());
 
-// Place any jQuery/helper plugins in here.
+// Typed JS
+$(".container > .my-title").typed({
+    stringsElement: $("#typed-strings"),
+    typeSpeed: 80,
+});
